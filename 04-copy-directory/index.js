@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 //const fsPromises = fs.promises;
 
-/*async function copyDir() {
+async function copyDir() {
   const folderPath = path.join(__dirname, 'files');
   const copyFolderPath = path.join(__dirname, 'files-copy');
 
@@ -40,10 +40,10 @@ const fs = require('fs');
   }
 }
 
-copyDir();*/
+copyDir();
 
 
-function copyDir ()  {
+/*function copyDir ()  {
   const folderPath = path.join(__dirname, 'files');
   const copyFolderPath = path.join(__dirname, 'files-copy');
   fs.rm(copyFolderPath, { recursive: true, force: true }, (err) => { // удаляем копи-папку
@@ -67,7 +67,7 @@ function copyDir ()  {
   });
 }
 
-copyDir();
+copyDir();*/
 
 
 
