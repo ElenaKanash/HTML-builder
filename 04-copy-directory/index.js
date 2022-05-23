@@ -42,7 +42,7 @@ async function copyDir() {
 
 copyDir();
 
-
+//базовый вариант без catch и async/await
 /*function copyDir ()  {
   const folderPath = path.join(__dirname, 'files');
   const copyFolderPath = path.join(__dirname, 'files-copy');
